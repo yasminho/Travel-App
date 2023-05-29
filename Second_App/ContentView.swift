@@ -9,13 +9,31 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        HStack{VStack {
             Image(systemName: "pencil")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello")
         }
-        .padding()
+            VStack {
+                Image(systemName: "book")
+                    .padding(50)
+                    .scaledToFit()
+                    .foregroundColor(Color.green)
+                    .scaledToFit()
+                    .aspectRatio(contentMode: .fit)
+                    
+                
+                Text("Book")
+                    .font(.title)
+                    .padding(-5)
+                    .fontWeight(.bold)
+                    
+            }
+            .padding(-2)
+        }
+    
+        
     }
 }
 
