@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4B71832A260DB20034CEF3 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D4B71822A260DB20034CEF3 /* locations.json */; };
+		7D4B71852A260DB80034CEF3 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D4B71842A260DB80034CEF3 /* tips.json */; };
 		7D50C75C2A24B1620012F061 /* Second_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50C75B2A24B1620012F061 /* Second_AppApp.swift */; };
 		7D50C75E2A24B1620012F061 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D50C75D2A24B1620012F061 /* ContentView.swift */; };
 		7D50C7602A24B1640012F061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D50C75F2A24B1640012F061 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D4B71822A260DB20034CEF3 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = ../../../Assets/locations.json; sourceTree = "<group>"; };
+		7D4B71842A260DB80034CEF3 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tips.json; path = ../../../Assets/tips.json; sourceTree = "<group>"; };
 		7D50C7582A24B1620012F061 /* Second_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Second_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D50C75B2A24B1620012F061 /* Second_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second_AppApp.swift; sourceTree = "<group>"; };
 		7D50C75D2A24B1620012F061 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				7D50C75B2A24B1620012F061 /* Second_AppApp.swift */,
+				7D4B71842A260DB80034CEF3 /* tips.json */,
+				7D4B71822A260DB20034CEF3 /* locations.json */,
 				7D50C75D2A24B1620012F061 /* ContentView.swift */,
 				7D50C75F2A24B1640012F061 /* Assets.xcassets */,
 				7D50C7612A24B1640012F061 /* Preview Content */,
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D50C7632A24B1640012F061 /* Preview Assets.xcassets in Resources */,
+				7D4B71852A260DB80034CEF3 /* tips.json in Resources */,
+				7D4B71832A260DB20034CEF3 /* locations.json in Resources */,
 				7D50C7602A24B1640012F061 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
