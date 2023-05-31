@@ -29,6 +29,13 @@ struct Second_AppApp: App {
                     Image(systemName: "globe")
                     Text("Map")
                 }
+                NavigationView{
+                    Tips()
+                }
+                .tabItem{
+                    Image(systemName:"list.bullet")
+                    Text("Tips")
+                }
                 
                 
                 
