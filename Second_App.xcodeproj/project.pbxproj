@@ -15,6 +15,7 @@
 		7D50C7632A24B1640012F061 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D50C7622A24B1640012F061 /* Preview Assets.xcassets */; };
 		7D6A4E3F2A26267C0073049B /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A4E3E2A26267C0073049B /* location.swift */; };
 		7D6A4E412A2627CC0073049B /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A4E402A2627CC0073049B /* Locations.swift */; };
+		7D6A4E432A273BF00073049B /* worldview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A4E422A273BF00073049B /* worldview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		7D50C7622A24B1640012F061 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D6A4E3E2A26267C0073049B /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
 		7D6A4E402A2627CC0073049B /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		7D6A4E422A273BF00073049B /* worldview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worldview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				7D50C75B2A24B1620012F061 /* Second_AppApp.swift */,
+				7D6A4E422A273BF00073049B /* worldview.swift */,
 				7D4B71842A260DB80034CEF3 /* tips.json */,
 				7D4B71822A260DB20034CEF3 /* locations.json */,
 				7D50C75D2A24B1620012F061 /* ContentView.swift */,
@@ -154,6 +157,7 @@
 				7D50C75E2A24B1620012F061 /* ContentView.swift in Sources */,
 				7D6A4E3F2A26267C0073049B /* location.swift in Sources */,
 				7D6A4E412A2627CC0073049B /* Locations.swift in Sources */,
+				7D6A4E432A273BF00073049B /* worldview.swift in Sources */,
 				7D50C75C2A24B1620012F061 /* Second_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
